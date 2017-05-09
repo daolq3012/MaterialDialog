@@ -1,0 +1,27 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <com.fstyle.library.internal.MDButton
+        android:id="@+id/md_buttonDefaultNeutral"
+        tools:text="Neutral"
+        style="@style/MD_ActionButton.Text"
+        />
+
+    <com.fstyle.library.internal.MDButton
+        android:id="@+id/md_buttonDefaultNegative"
+        tools:layout_alignParentLeft="true"
+        tools:layout_alignParentStart="true"
+        tools:text="Negative"
+        style="@style/MD_ActionButton.Text"
+        />
+
+    <com.fstyle.library.internal.MDButton
+        android:id="@+id/md_buttonDefaultPositive"
+        tools:layout_alignParentLeft="true"
+        tools:layout_alignParentStart="true"
+        tools:text="Positive"
+        style="@style/MD_ActionButton.Text"
+        />
+
+</merge>

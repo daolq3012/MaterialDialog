@@ -1,19 +1,15 @@
-apply plugin: 'com.android.application'
-apply from: '../autodimension.gradle'
+apply plugin: 'com.android.library'
 
 /**
  * start config and check ci*/
 apply from: '../checkci.gradle'
-
-def APP_ID = "com.fstyle.dialogmanager";
 
 android {
   compileSdkVersion rootProject.ext.compileSdkVersion
   buildToolsVersion rootProject.ext.buildToolsVersion
 
   defaultConfig {
-    applicationId "${APP_ID}"
-    minSdkVersion rootProject.ext.minSdkVersion
+    minSdkVersion 14
     targetSdkVersion rootProject.ext.targetSdkVersion
     versionCode rootProject.ext.versionCode
     versionName rootProject.ext.versionName
@@ -35,20 +31,9 @@ android {
 
 dependencies {
   compile fileTree(dir: 'libs', include: ['*.jar'])
-  compile project(path: ':library')
 
   Map<String, String> dependencies = rootProject.ext.dependencies;
 
   compile dependencies.supportDesign
-  compile dependencies.constraintLayout
-
-  compile dependencies.rxJava
-  compile dependencies.rxAndroid
-
-  testCompile dependencies.junit
-  testCompile dependencies.mockito
-
-  androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-    exclude group: 'com.android.support', module: 'support-annotations'
-  })
+  compile dependencies.materialprogressbar
 }
