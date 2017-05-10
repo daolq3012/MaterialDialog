@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">DialogManager</string>
+
+    <string name="progress">Progress</string>
+    <string name="basic_no_title">Basic No Title</string>
+    <string name="basic">Basic</string>
+    <string name="basic_with_icon">Basic With Icon</string>
+    <string name="basic_check_prompt">Basic Check Prompt</string>
+    <string name="neutral">Neutral</string>
+    <string name="list">List</string>
+    <string name="list_no_title">List No Title</string>
+    <string name="list_single_choice">List Single Choice</string>
+    <string name="list_multi_choice">List Multi Choice</string>
+    <string name="agree">Agree</string>
+    <string name="disagree">Disagree</string>
+    <string name="allow">Allow</string>
+    <string name="deny">Deny</string>
+    <string name="dont_ask_again">Don\'t ask again</string>
+    <string name="more_info">More Info</string>
+    <string name="choose">Choose</string>
+    <string name="clear">Clear</string>
+
+    <string-array name="socialNetworks">
+        <item>Twitter</item>
+        <item>Google+</item>
+        <item>Instagram</item>
+        <item>Facebook</item>
+    </string-array>
 </resources>
