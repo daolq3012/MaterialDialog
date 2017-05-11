@@ -19,6 +19,8 @@
     <string name="more_info">More Info</string>
     <string name="choose">Choose</string>
     <string name="clear">Clear</string>
+    <string name="retry">Retry</string>
+    <string name="error">Error</string>
 
     <string-array name="socialNetworks">
         <item>Twitter</item>

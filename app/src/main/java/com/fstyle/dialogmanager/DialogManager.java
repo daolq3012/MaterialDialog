@@ -19,6 +19,8 @@ public interface DialogManager {
 
     void dismissProgressDialog();
 
+    void dialogError(String content,MaterialDialog.SingleButtonCallback positiveButtonListener);
+
     /**
      * <h1>BasicWithoutTitle Dialog</h1>
      * <img width="400" height="134" src="https://github.com/daolq3012/DialogManager/blob/master/image/BasicWithoutTitle.png?raw=true"

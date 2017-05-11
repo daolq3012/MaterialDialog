@@ -39,6 +39,15 @@ public class DialogManagerImpl implements DialogManager {
     }
 
     @Override
+    public void dialogError(String content,
+            MaterialDialog.SingleButtonCallback positiveButtonListener) {
+        new MaterialDialog.Builder(mContext).content(content)
+                .positiveText(R.string.retry)
+                .onPositive(positiveButtonListener)
+                .show();
+    }
+
+    @Override
     public void dialogBasicWithoutTitle(String content,
             MaterialDialog.SingleButtonCallback positiveButtonListener) {
         new MaterialDialog.Builder(mContext).content(content)

@@ -26,6 +26,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btnProgress:
                 showProgress();
                 break;
+            case R.id.btnError:
+                showDialogError();
+                break;
             case R.id.btnBasicNoTitle:
                 showDialogBasicWithoutTitle();
                 break;
@@ -169,6 +172,15 @@ public class MainActivity extends AppCompatActivity {
                         Log.d(TAG, "onClick: " + dialogAction);
                     }
                 });
+    }
+
+    private void showDialogError() {
+        mDialogManager.dialogError("Content...", new MaterialDialog.SingleButtonCallback() {
+            @Override
+            public void onClick(@NonNull MaterialDialog dialog, @NonNull DialogAction which) {
+                Log.d(TAG, "onClick: ");
+            }
+        });
     }
 
     private void showProgress() {
