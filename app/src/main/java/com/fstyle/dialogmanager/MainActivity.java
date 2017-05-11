@@ -86,12 +86,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showDialogListWithoutTitle() {
-        mDialogManager.dialogBasicWithoutTitle("test abc",
-                new MaterialDialog.SingleButtonCallback() {
+        mDialogManager.dialogListWithoutTitle(R.array.socialNetworks,
+                new MaterialDialog.ListCallback() {
+
                     @Override
-                    public void onClick(@NonNull MaterialDialog materialDialog,
-                            @NonNull DialogAction dialogAction) {
-                        Log.d(TAG, "onClick: ");
+                    public void onSelection(MaterialDialog dialog, View itemView, int position,
+                            CharSequence text) {
+                        Log.d(TAG, "onSelection: " + text);
                     }
                 });
     }

@@ -106,7 +106,8 @@ public class DialogManagerImpl implements DialogManager {
     }
 
     @Override
-    public void dialogListNoTitle(@ArrayRes int arrayId, MaterialDialog.ListCallback callback) {
+    public void dialogListWithoutTitle(@ArrayRes int arrayId,
+            MaterialDialog.ListCallback callback) {
         new MaterialDialog.Builder(mContext).items(arrayId).itemsCallback(callback).show();
     }
 
