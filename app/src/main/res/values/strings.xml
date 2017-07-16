@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DialogManager</string>
+    <string name="app_name">MaterialDialog</string>
 
     <string name="progress">Progress</string>
     <string name="basic_no_title">Basic No Title</string>

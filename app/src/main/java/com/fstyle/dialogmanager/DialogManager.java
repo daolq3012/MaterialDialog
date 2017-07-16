@@ -12,7 +12,7 @@ public interface DialogManager {
 
     /**
      * <h1>Indeterminate Progress Dialog</h1>
-     * <img width="400" height="110" src="https://github.com/daolq3012/DialogManager/blob/master/image/IndeterminateProgressDialog.png?raw=true"
+     * <img width="400" height="110" src="https://github.com/daolq3012/MaterialDialog/blob/master/image/IndeterminateProgressDialog.png?raw=true"
      * alt="">
      */
     void showIndeterminateProgressDialog();
@@ -23,7 +23,7 @@ public interface DialogManager {
 
     /**
      * <h1>BasicWithoutTitle Dialog</h1>
-     * <img width="400" height="134" src="https://github.com/daolq3012/DialogManager/blob/master/image/BasicWithoutTitle.png?raw=true"
+     * <img width="400" height="134" src="https://github.com/daolq3012/MaterialDialog/blob/master/image/BasicWithoutTitle.png?raw=true"
      * alt="">
      */
     void dialogBasicWithoutTitle(String content,
@@ -31,7 +31,7 @@ public interface DialogManager {
 
     /**
      * <h1>Basic Dialog</h1>
-     * <img width="400" height="183" src="https://github.com/daolq3012/DialogManager/blob/master/image/Basic.png?raw=true"
+     * <img width="400" height="183" src="https://github.com/daolq3012/MaterialDialog/blob/master/image/Basic.png?raw=true"
      * alt="">
      */
     void dialogBasic(String title, String content,
@@ -39,7 +39,7 @@ public interface DialogManager {
 
     /**
      * <h1>BasicIcon Dialog</h1>
-     * <img width="400" height="211" src="https://github.com/daolq3012/DialogManager/blob/master/image/BasicIcon.png?raw=true"
+     * <img width="400" height="211" src="https://github.com/daolq3012/MaterialDialog/blob/master/image/BasicIcon.png?raw=true"
      * alt="">
      */
     void dialogBasicIcon(String title, String content, @DrawableRes int icon,
@@ -47,35 +47,35 @@ public interface DialogManager {
 
     /**
      * <h1>BasicCheckPrompt Dialog</h1>
-     * <img width="400" height="221" src="https://github.com/daolq3012/DialogManager/blob/master/image/BasicCheckPrompt.png?raw=true"
+     * <img width="400" height="221" src="https://github.com/daolq3012/MaterialDialog/blob/master/image/BasicCheckPrompt.png?raw=true"
      * alt="">
      */
     void dialogBasicCheckPrompt(String title, MaterialDialog.SingleButtonCallback callback);
 
     /**
      * <h1>Neutral Dialog</h1>
-     * <img width="400" height="187" src="https://github.com/daolq3012/DialogManager/blob/master/image/Neutral.png?raw=true"
+     * <img width="400" height="187" src="https://github.com/daolq3012/MaterialDialog/blob/master/image/Neutral.png?raw=true"
      * alt="">
      */
     void dialogNeutral(String title, String content, MaterialDialog.SingleButtonCallback callback);
 
     /**
      * <h1>List Dialog</h1>
-     * <img width="400" height="318" src="https://github.com/daolq3012/DialogManager/blob/master/image/List.png?raw=true"
+     * <img width="400" height="318" src="https://github.com/daolq3012/MaterialDialog/blob/master/image/List.png?raw=true"
      * alt="">
      */
     void dialogList(String title, @ArrayRes int arrayId, MaterialDialog.ListCallback callback);
 
     /**
      * <h1>ListWithoutTitle Dialog</h1>
-     * <img width="400" height="234" src="https://github.com/daolq3012/DialogManager/blob/master/image/ListWithoutTitle.png?raw=true"
+     * <img width="400" height="234" src="https://github.com/daolq3012/MaterialDialog/blob/master/image/ListWithoutTitle.png?raw=true"
      * alt="">
      */
     void dialogListWithoutTitle(@ArrayRes int arrayId, MaterialDialog.ListCallback callback);
 
     /**
      * <h1>ListSingleChoice Dialog</h1>
-     * <img width="400" height="371" src="https://github.com/daolq3012/DialogManager/blob/master/image/ListSingleChoice.png?raw=true"
+     * <img width="400" height="371" src="https://github.com/daolq3012/MaterialDialog/blob/master/image/ListSingleChoice.png?raw=true"
      * alt="">
      */
     void dialogListSingleChoice(String title, @ArrayRes int arrayId, int selectedIndex,
@@ -83,7 +83,7 @@ public interface DialogManager {
 
     /**
      * <h1>ListMultiChoice Dialog</h1>
-     * <img width="400" height="372" src="https://github.com/daolq3012/DialogManager/blob/master/image/ListMultiChoice.png?raw=true"
+     * <img width="400" height="372" src="https://github.com/daolq3012/MaterialDialog/blob/master/image/ListMultiChoice.png?raw=true"
      * alt="">
      */
     void dialogListMultiChoice(String title, @ArrayRes int arrayId, Integer[] selectedIndices,

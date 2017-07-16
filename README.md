@@ -1,5 +1,5 @@
-## Dialog Manager
-[![CircleCI](https://circleci.com/gh/daolq3012/DialogManager.svg?style=shield)](https://circleci.com/gh/daolq3012/DialogManager)
+## MaterialDialog
+[![CircleCI](https://circleci.com/gh/daolq3012/MaterialDialog.svg?style=shield)](https://circleci.com/gh/daolq3012/MaterialDialog)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 Common dialog use in a project in android base on [afollestad/material-dialogs](https://github.com/afollestad/material-dialogs):
@@ -21,14 +21,14 @@ allprojects {
 Step 2. Add the dependency
 ```gradle
 dependencies {
-	        compile 'com.github.daolq3012:DialogManager:0.1'
+	      compile 'com.github.daolq3012:MaterialDialog:1.0'
 }
 ```
 
 ### How to use:
 - Demo code:
 ```java
-@Override
+    @Override
     public void dialogBasicIcon(String title, String content, @DrawableRes int icon,
             MaterialDialog.SingleButtonCallback positiveButtonListener) {
         new MaterialDialog.Builder(mContext).title(title)
