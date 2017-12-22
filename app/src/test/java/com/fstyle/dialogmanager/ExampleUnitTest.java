@@ -1,4 +1,4 @@
-package com.fstyle.MaterialDialog;
+package com.fstyle.dialogmanager;
 
 import org.junit.Test;
 

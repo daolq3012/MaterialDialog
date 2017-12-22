@@ -9,7 +9,7 @@ android {
   buildToolsVersion rootProject.ext.buildToolsVersion
 
   defaultConfig {
-    minSdkVersion 14
+    minSdkVersion rootProject.ext.minSdkVersion
     targetSdkVersion rootProject.ext.targetSdkVersion
     versionCode rootProject.ext.versionCode
     versionName rootProject.ext.versionName
@@ -32,8 +32,6 @@ android {
 dependencies {
   compile fileTree(dir: 'libs', include: ['*.jar'])
 
-  Map<String, String> dependencies = rootProject.ext.dependencies;
-
-  compile dependencies.supportDesign
-  compile dependencies.materialprogressbar
+  implementation 'com.android.support:recyclerview-v7:26.0.2'
+  implementation 'me.zhanghai.android.materialprogressbar:library:1.4.2'
 }
